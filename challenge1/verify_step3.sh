@@ -1,3 +1,3 @@
 #!/bin/bash
 
-test $(docker ps | wc -l) = 1
+docker ps | grep "sleep infinity"

@@ -1,10 +1,7 @@
+Find the name of the official Debian image in Docker Hub
 
-Find the name of a Debian docker image in Docker Hub
+Run a container with this image (Hint: docker run)
 
-Run a container with Debian distribution (Hint: docker run)
-
-Verify inside the container that you are in a Debian environment (Hint: /etc/os-release)
+Verify inside the container that you are in a Debian environment (Hint: cat /etc/os-release) and copy the content of that file to /root/debian-os-release.txt
 
 Exit the container
-
-Check if the container still exists (Hint: docker ps)
