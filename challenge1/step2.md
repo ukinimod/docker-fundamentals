@@ -1,7 +1,7 @@
-Find the name of the official Debian image in Docker Hub
+Find the name of the official Ubuntu image in [Docker Hub](https://hub.docker.com/search)
 
-Run a container with this image (Hint: docker run)
+Run a container with this image (Hint: [docker run](https://docs.docker.com/engine/reference/commandline/run/))
 
-Verify inside the container that you are in a Debian environment (Hint: cat /etc/os-release) and copy the content of that file to /root/debian-os-release.txt
+Verify inside the container that you are in a Ubuntu environment (Hint: `cat /etc/os-release`) and copy the content of that file to `/root/os-release.txt`.
 
 Exit the container

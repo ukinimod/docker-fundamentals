@@ -1,7 +1,10 @@
 {
-  "title": "Challenge 1: Run Container",
+  "title": "Challenge 1: Basic docker cli commands",
   "description": "Verify user input",
   "details": {
+    "intro": {
+      "text": "intro.md"
+    },
     "steps": [
       {
         "title":  "List all running container",
@@ -17,8 +20,21 @@
         "title":  "Stop all container",
         "text":   "step3.md",
         "verify": "verify_step3.sh"
+      },
+      {
+        "title":  "Stop all container",
+        "text":   "step4.md",
+        "verify": "verify_step4.sh"
+      },
+      {
+        "title":  "Stop all container",
+        "text":   "step5.md",
+        "verify": "verify_step5.sh"
       }
-    ]
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
   },
   "backend": {
     "imageid": "ubuntu"

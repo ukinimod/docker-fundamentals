@@ -1,0 +1,1 @@
+Stop all running containers
