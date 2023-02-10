@@ -1,0 +1,16 @@
+{
+  "title": "Challenge 1: Run Container",
+  "description": "Verify user input",
+  "details": {
+    "steps": [
+      {
+        "title":  "Run a container with Debian interactively",
+        "text":   "run_container.md",
+        "verify": "verify.sh"
+      }
+    ]
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
