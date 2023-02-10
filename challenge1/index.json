@@ -4,9 +4,19 @@
   "details": {
     "steps": [
       {
+        "title":  "List all running container",
+        "text":   "step1.md",
+        "verify": "verify_step1.sh"
+      },
+      {
         "title":  "Run a container with Debian interactively",
-        "text":   "run_container.md",
-        "verify": "verify.sh"
+        "text":   "step2.md",
+        "verify": "verify_step2.sh"
+      },
+      {
+        "title":  "Stop all container",
+        "text":   "step3.md",
+        "verify": "verify_step3.sh"
       }
     ]
   },
