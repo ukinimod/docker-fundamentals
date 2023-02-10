@@ -7,27 +7,27 @@
     },
     "steps": [
       {
-        "title":  "List all running container",
+        "title":  "List containers",
         "text":   "step1.md",
         "verify": "verify_step1.sh"
       },
       {
-        "title":  "Run a container with Debian interactively",
+        "title":  "Run containers interactively",
         "text":   "step2.md",
         "verify": "verify_step2.sh"
       },
       {
-        "title":  "Stop all container",
+        "title":  "Specify command",
         "text":   "step3.md",
         "verify": "verify_step3.sh"
       },
       {
-        "title":  "Stop all container",
+        "title":  "Start another process in running container",
         "text":   "step4.md",
         "verify": "verify_step4.sh"
       },
       {
-        "title":  "Stop all container",
+        "title":  "Stop containers",
         "text":   "step5.md",
         "verify": "verify_step5.sh"
       }
