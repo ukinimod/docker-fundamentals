@@ -6,6 +6,31 @@
       "text": "intro.md"
     },
     "steps": [
+      {
+        "title":  "Create a volume",
+        "text":   "step1.md",
+        "verify": "verify_step1.sh"
+      },
+      {
+        "title":  "Mount the volume in the container",
+        "text":   "step2.md",
+        "verify": "verify_step2.sh"
+      },
+      {
+        "title":  "Mount the volume in another container",
+        "text":   "step3.md",
+        "verify": "verify_step1.sh"
+      },
+      {
+        "title":  "Inspect the volume",
+        "text":   "step4.md",
+        "verify": "verify_step4.sh"
+      },
+      {
+        "title":  "Delete the volume",
+        "text":   "step5.md",
+        "verify": "verify_step5.sh"
+      }
    ],
     "finish": {
       "text": "finish.md"
