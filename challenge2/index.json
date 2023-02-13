@@ -1,6 +1,6 @@
 {
   "title": "Challenge 2: Basic Docker Persistence",
-  "description": "WIP",
+  "description": "WIP: This scenario teaches the basics for working with persistence in docker.",
   "details": {
     "intro": {
       "text": "intro.md"
