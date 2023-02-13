@@ -6,6 +6,11 @@
       "text": "intro.md"
     },
     "steps": [
+      {
+        "title":  "Expose Port",
+        "text":   "step1.md",
+        "verify": "verify_step1.sh"
+      }
    ],
     "finish": {
       "text": "finish.md"
