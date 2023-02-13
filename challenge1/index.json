@@ -1,6 +1,6 @@
 {
   "title": "Challenge 1: Basic docker cli commands",
-  "description": "Verify user input",
+  "description": "This scenario teaches the basic docker cli commands that are used everyday.",
   "details": {
     "intro": {
       "text": "intro.md"
