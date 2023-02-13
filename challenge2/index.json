@@ -1,0 +1,17 @@
+{
+  "title": "Challenge 2: Basic Docker Persistence",
+  "description": "WIP",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+   ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

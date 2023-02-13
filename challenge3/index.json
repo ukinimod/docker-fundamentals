@@ -1,0 +1,17 @@
+{
+  "title": "Challenge 3: Docker Images",
+  "description": "WIP",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+   ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

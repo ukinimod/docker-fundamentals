@@ -1,0 +1,17 @@
+{
+  "title": "Challenge 4: Basic Docker Networking",
+  "description": "WIP",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+   ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
