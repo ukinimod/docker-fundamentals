@@ -1,3 +1,3 @@
 #!/bin/bash
 
-test "$(docker ps -q | wc -l) = 0"
+test $(docker ps -q | wc -l) = 0

@@ -30,6 +30,16 @@
         "title":  "Stop containers",
         "text":   "step5.md",
         "verify": "verify_step5.sh"
+      },
+      {
+        "title":  "Restart containers",
+        "text":   "step6.md",
+        "verify": "verify_step5.sh"
+      },
+      {
+        "title":  "Delete containers",
+        "text":   "step7.md",
+        "verify": "verify_step5.sh"
       }
     ],
     "finish": {
