@@ -34,12 +34,12 @@
       {
         "title":  "Restart containers",
         "text":   "step6.md",
-        "verify": "verify_step5.sh"
+        "verify": "verify_step6.sh"
       },
       {
         "title":  "Delete containers",
         "text":   "step7.md",
-        "verify": "verify_step5.sh"
+        "verify": "verify_step7.sh"
       }
     ],
     "finish": {
