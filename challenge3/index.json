@@ -6,6 +6,31 @@
       "text": "intro.md"
     },
     "steps": [
+      {
+        "title":  "Create image containing file",
+        "text":   "step1.md",
+        "verify": "verify_step1.sh"
+      },
+      {
+        "title":  "Create nginx image",
+        "text":   "step2.md",
+        "verify": "verify_step2.sh"
+      },
+      {
+        "title":  "Create nginx image (the right way)",
+        "text":   "step3.md",
+        "verify": "verify_step1.sh"
+      },
+      {
+        "title":  "Push image to registry",
+        "text":   "step4.md",
+        "verify": "verify_step4.sh"
+      },
+      {
+        "title":  "Delete the volume",
+        "text":   "step5.md",
+        "verify": "verify_step5.sh"
+      }
    ],
     "finish": {
       "text": "finish.md"
