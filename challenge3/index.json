@@ -7,22 +7,22 @@
     },
     "steps": [
       {
-        "title":  "Create image containing file",
+        "title":  "Create image",
         "text":   "step1.md",
         "verify": "verify_step1.sh"
       },
       {
-        "title":  "Create nginx image",
+        "title":  "Create image containing file",
         "text":   "step2.md",
         "verify": "verify_step2.sh"
       },
       {
-        "title":  "Create nginx image (the right way)",
+        "title":  "Create nginx image",
         "text":   "step3.md",
-        "verify": "verify_step1.sh"
+        "verify": "verify_step3.sh"
       },
       {
-        "title":  "Push image to registry",
+        "title":  "Create nginx image (the right way)",
         "text":   "step4.md",
         "verify": "verify_step4.sh"
       },
