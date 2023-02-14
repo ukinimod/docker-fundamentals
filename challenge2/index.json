@@ -1,6 +1,6 @@
 {
   "title": "Challenge 2: Basic Docker Persistence",
-  "description": "WIP: This scenario teaches the basics for working with persistence in docker.",
+  "description": "This scenario teaches the basics for working with persistence in docker.",
   "details": {
     "intro": {
       "text": "intro.md"
@@ -17,19 +17,24 @@
         "verify": "verify_step2.sh"
       },
       {
-        "title":  "Mount the volume in another container",
+        "title":  "Mount the volume in same container",
         "text":   "step3.md",
-        "verify": "verify_step1.sh"
+        "verify": "verify_step3.sh"
       },
       {
-        "title":  "Inspect the volume",
+        "title":  "Mount the volume in another container",
         "text":   "step4.md",
         "verify": "verify_step4.sh"
       },
       {
-        "title":  "Delete the volume",
+        "title":  "Inspect the volume",
         "text":   "step5.md",
         "verify": "verify_step5.sh"
+      },
+      {
+        "title":  "Delete the volume",
+        "text":   "step6.md",
+        "verify": "verify_step6.sh"
       }
    ],
     "finish": {
