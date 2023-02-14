@@ -1,6 +1,6 @@
 {
   "title": "Challenge 4: Basic Docker Networking",
-  "description": "WIP: This scenario teaches the basics of Docker networking.",
+  "description": "This scenario teaches the basics of Docker networking.",
   "details": {
     "intro": {
       "text": "intro.md"
@@ -12,6 +12,11 @@
         "verify": "verify_step1.sh"
       }
    ],
+   "assets": {
+      "host01": [
+        {"file": "Dockerfile", "target": "/root"}
+      ]
+    },
     "finish": {
       "text": "finish.md"
     }
