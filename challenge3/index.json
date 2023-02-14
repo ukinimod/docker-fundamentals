@@ -31,13 +31,14 @@
         "text":   "step5.md",
         "verify": "verify_step5.sh"
       }
-   ],"assets": {
+   ],
+   "assets": {
       "host01": [
         {"file": "Dockerfile", "target": "/root/step1"},
-        {"file": "Dockerfile", "target": "/root/step2"},
+        {"file": "Dockerfile", "target": "/root/step2", "chmod": "+w"},
         {"file": "hello.html", "target": "/root/step2"},
-        {"file": "Dockerfile", "target": "/root/step3"},
-        {"file": "Dockerfile", "target": "/root/step4"}
+        {"file": "Dockerfile", "target": "/root/step3", "chmod": "+w"},
+        {"file": "Dockerfile", "target": "/root/step4", "chmod": "+w"}
       ]
     },
     "finish": {
