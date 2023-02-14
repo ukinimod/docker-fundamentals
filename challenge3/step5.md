@@ -1,1 +1,1 @@
-Delete all images.
+Delete image `step2` (Hint: [docker rmi](https://docs.docker.com/engine/reference/commandline/rmi/)).

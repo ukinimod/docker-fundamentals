@@ -1,6 +1,6 @@
 {
   "title": "Challenge 3: Docker Images",
-  "description": "WIP: This scenario teaches the basics of Docker images.",
+  "description": "This scenario teaches the basics of Docker images.",
   "details": {
     "intro": {
       "text": "intro.md"
