@@ -31,7 +31,15 @@
         "text":   "step5.md",
         "verify": "verify_step5.sh"
       }
-   ],
+   ],"assets": {
+      "host01": [
+        {"file": "Dockerfile", "target": "/root/step1"},
+        {"file": "Dockerfile", "target": "/root/step2"},
+        {"file": "hello.html", "target": "/root/step2"},
+        {"file": "Dockerfile", "target": "/root/step3"},
+        {"file": "Dockerfile", "target": "/root/step4"}
+      ]
+    },
     "finish": {
       "text": "finish.md"
     }
