@@ -7,6 +7,7 @@ Run a detached container named `nginx` with this image that publishes the contai
 Check that the container is running and that you can access nginx using 
 `curl 127.0.0.1:8080`{{exec}}
 
+<br>
 
 ### Hints
 
@@ -17,6 +18,7 @@ Check that the container is running and that you can access nginx using
 
 </details>
 
+<br>
 
 ### Solution
 
