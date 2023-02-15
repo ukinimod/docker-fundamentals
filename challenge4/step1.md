@@ -7,6 +7,7 @@ Run a detached container named `nginx` with this image that publishes the contai
 Check that the container is running and that you can access nginx using 
 `curl 127.0.0.1:8080`{{exec}}
 
+
 ### Hints
 
 <details>
@@ -22,7 +23,12 @@ Check that the container is running and that you can access nginx using
 <details>
   <summary>Solution</summary>
 
-    `docker build -t mynginx /root`{{exec}}
-    `docker run -d -p 127.0.0.1:8080:80 --name nginx mynginx`{{exec}}
+    Build image:
+
+    `docker build -t mynginx /root`
+
+    Run container:
+
+    `docker run -d -p 127.0.0.1:8080:80 --name nginx mynginx`
 
 </details>
