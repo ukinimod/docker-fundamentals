@@ -1,4 +1,4 @@
-Look at the `/root/Dockerfile` and find the port intended for publishing (Hint: [EXPOSE instruction](https://docs.docker.com/engine/reference/builder/#expose)) 
+Look at the `/root/Dockerfile` and find the port intended for publishing. 
 
 Create an image from the Dockerfile tagged `mynginx`.
 
@@ -7,11 +7,22 @@ Run a detached container named `nginx` with this image that publishes the contai
 Check that the container is running and that you can access nginx using 
 `curl 127.0.0.1:8080`{{exec}}
 
-<br>
+### Hints
+
+<details>
+  <summary>Hints</summary>
+
+  see [EXPOSE instruction](https://docs.docker.com/engine/reference/builder/#expose)
+
+</details>
+
 
 ### Solution
 
 <details>
   <summary>Solution</summary>
+
+    `docker build -t mynginx /root`{{exec}}
+    `docker run -d -p 127.0.0.1:8080:80 --name nginx mynginx`{{exec}}
 
 </details>
